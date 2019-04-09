@@ -39,7 +39,7 @@ body{
 
 /* Linha - Dividir o conteudo e zerar o padding dos elemtos das pontas*/
 .row {
-    margin-left: -5px; /* espaÁamento entre as linhas */
+    margin-left: -5px; /* espa√ßamento entre as linhas */
     margin-right: -5px;
     border-bottom-width: 6px;
     background-color: #fafafa;
@@ -49,7 +49,7 @@ body{
 }
 
 /* para evitar que o conteudo flutue em torno das linhas
-e que elas n„o tenham um tamanho menor que eles */
+e que elas n√£o tenham um tamanho menor que eles */
     .row:before,
     .row:after {
         content: "";
@@ -62,15 +62,15 @@ e que elas n„o tenham um tamanho menor que eles */
 /* colunas */
 .col {
     display: inline-block; /* para ter todas as caracteristicas do elemento inblock
-    porÈm se comportar como elemento inline (flutuar, para esquerda); com float
-    nÁao temos o controle vertical*/
+    por√©m se comportar como elemento inline (flutuar, para esquerda); com float
+    n√ßao temos o controle vertical*/
 
     vertical-align: top;
     min-height: 1px;
     padding-left: 5px;
     padding-right: 5px;
     width: 100%;
-    margin-right: -4px; /* para resetar os margin padr„o que o inline-block coloca */
+    margin-right: -4px; /* para resetar os margin padr√£o que o inline-block coloca */
     /*rack - para dar suporte para navegadores antigos  */
     *zoom: 1;
     *display: inline;
@@ -112,7 +112,7 @@ e que elas n„o tenham um tamanho menor que eles */
 
 }
 
- h3.subCabeÁalho {
+ h3.subCabe√ßalho {
   display: block;
   font-weight: normal;
   color: #333;
@@ -266,10 +266,10 @@ header label:hover{
       opacity: .65; /* pra deixar a font opaca quando passar o mouse */
 }
 
-/* so vai ler o codigo abaixo apenas para valores maiores que 411px */
+/* so vai ler o codigo abaixo apenas para valores maiores que *411px */
 @media (max-width: 905px){
 
-  /* mostra o bot„o menu*/
+  /* mostra o bot√£o menu*/
   header label{
     display: block;
   }
@@ -299,7 +299,7 @@ header label:hover{
   .displayed{
     display: none;
   }
-  .subCabeÁalho{
+  .subCabe√ßalho{
     width: 95%;
   }
   .excluir{
